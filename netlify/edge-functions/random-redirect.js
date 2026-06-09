@@ -28,7 +28,7 @@ export default async (request, context) => {
     'https://wpapi.lwzmc1437.cn/Webp/19004863_p0.webp',     // 596x600 方形
   ];
 
-  // 横屏图片 — 适合电脑端 (25 张)
+  // 横屏图片 — 适合电脑端 (24 张)
   const desktopUrls = [
     'https://wpapi.lwzmc1437.cn/Webp/0d9efb5a2fca6440b7d7f348571b9d7bfc2644b2.webp',  // 1125x800
     'https://wpapi.lwzmc1437.cn/Webp/13bdfa7bcaad054e1d38fdf04cf1cc507a18b95c.webp',   // 1325x1028
@@ -54,7 +54,6 @@ export default async (request, context) => {
     'https://wpapi.lwzmc1437.cn/Webp/91842494_p0.webp',                                 // 4093x2894
     'https://wpapi.lwzmc1437.cn/Webp/99526666_p0.webp',                                 // 3508x2480
     'https://wpapi.lwzmc1437.cn/Webp/19004863_p0.webp',                                 // 596x600 方形
-    'https://wpapi.lwzmc1437.cn/Webp/48824041_p0.webp',                                 // 232x14 装饰条
   ];
 
   const urls = isMobile ? mobileUrls : desktopUrls;
